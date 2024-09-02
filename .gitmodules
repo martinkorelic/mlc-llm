@@ -13,3 +13,6 @@
 [submodule "3rdparty/stb"]
 	path = 3rdparty/stb
 	url = https://github.com/nothings/stb.git
+[submodule "python/mlc_llm/model/llamalora"]
+	path = python/mlc_llm/model/llamalora
+	url = git@github.com:martinkorelic/llamalora.git
