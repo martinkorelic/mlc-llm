@@ -8,10 +8,21 @@
 [![Related Repository: WebLLM](https://img.shields.io/badge/Related_Repo-WebLLM-fafbfc?logo=github)](https://github.com/mlc-ai/web-llm/)
 
 **Universal LLM Deployment Engine with ML Compilation**
-
 [Get Started](https://llm.mlc.ai/docs/get_started/quick_start) | [Documentation](https://llm.mlc.ai/docs) | [Blog](https://blog.mlc.ai/)
 
 </div>
+
+## **Loading additional model architecture submodules**
+
+In order to test newly created architectures, you have to also clone the submodules in the `model` folder:
+```
+git clone --recurse-submodules https://github.com/martinkorelic/mlc-llm
+cd mlc-llm
+git submodule update --init --recursive
+```
+
+
+
 
 ## About
 
